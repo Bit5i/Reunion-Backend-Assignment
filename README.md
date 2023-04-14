@@ -24,8 +24,9 @@ curl -i localhost:41160
 
 ### API
 
+  For API that requires authenticated users insert JWT token and user ID in header as follows
+
 ```js
-  For API that requires authenticated users insert JWT token and user ID in header as follows:
   access_token : <JWT_token>
   user_id : <user_ID>
 ```
