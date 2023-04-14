@@ -5,6 +5,10 @@ import cookieParser from "cookie-parser";
 import globalRoutes from "./routes/global.js"
 
 const app = express();
+app.get('/', (req, res) => {
+  res.send('Server running successfully');
+});
+
 dotenv.config();
 
 const connect = () => {
@@ -24,9 +28,6 @@ const router = express.Router()
 app.use(cookieParser());
 app.use(express.json());
 app.use("/api", globalRoutes)
-// app.use("/api/users", userRoutes);
-// app.use("/api/auth", authRoutes);
-// app.use("/api/tweets", tweetRoutes); 
 
 app.listen(8000, () => {
     connect();
