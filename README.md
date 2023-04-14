@@ -1,7 +1,9 @@
 # Reunion-Backend-Assignment
 
 ## Docker Setup
- 
+
+[Docker file link](https://github.com/Bit5i/Reunion-Backend-Assignment/blob/main/Dockerfile)
+
 Building your image
  
 ```js
