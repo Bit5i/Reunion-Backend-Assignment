@@ -1,21 +1,25 @@
 # Reunion-Backend-Assignment
 
-### Docker Setup
-
-<!-- prettier-ignore -->
-```js
+## Docker Setup
+ 
 Building your image
-
+ 
+```js
 docker build . -t karan.pawar/reunion-backend-assignment
-
+```
+ 
 Run the image
-
+ 
+```js
 docker run -p 41160:8000 -d karan.pawar/reunion-backend-assignment
-
+```
+ 
 Test Docker Server
-
+ 
+```js
 curl -i localhost:41160
 ```
+
 
 
 ### API
